@@ -1,0 +1,19 @@
+{
+  "name": "twitch-chat-controll-hue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "chroma-js": "^2.1.2",
+    "dank-twitch-irc": "^4.3.0",
+    "node-hue-api": "^5.0.0-beta.8",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^2.1.3"
+  }
+}
